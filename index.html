@@ -1,91 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serhii Cherednichenko</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="iamcherya, cv, resume, Serhii Cherednichenko, Черя">
+  <meta name="description" content="This site - Serhii's Cherednichenko CV">
+  <link rel="stylesheet" href="styless.css">
+  <title>Serhii Cherednichenko</title>
 </head>
 <body>
-    <h1>Serhii Cherednichenko</h1>
-    <br>
-   
-</p>
-<a href="01text.html" ></a>
-</p>
 
-<img src="myphoto1.png" width="300" alt="my photo">
-<h2></h2>
+  <div class="container">
 
-<p> I AM <strong>DATA ENGINEER</strong> WITH 2 YEARS EXPERIENCE IN IT.
-    WORKING WITH DATABASES (MYSQL), USING <em>PYTHON</em>
-    FOR CALCULATIONS, OPTIMISATION AND CREATION OF
-    NEW DATABASES.I WANT TO DEVELOP MYSELF IN
-    DATA SCIENCE AND LAW-REGULATION WITH
-    BLOCKCHAIN-BASED SMARTCONTRACTS.</p>
-    <a href="https://www.linkedin.com/in/sergey-cherednichenko-b89b54173" alt="link to my LinkedIn" target="_blank">Linkedin</a>
+    <div class="info">
+      <img src="myphoto1.png" alt="Serhii's photo" class="myphoto1">
 
-    <h2>My hobbies</h2>
-    <ol>
+      <div class="info-text">
+        <h1>Serhii Cherednichenko</h1>
+
+        <p>I am a party planner,<strong> Data analyst and Data engineer, as well as a novice front-end developer</strong></p>
+
+        <p>I like  <em> to travel, play sports and program</em></p>
+
+        <h4>Social media list:</h4>
+
+        <a href="https://www.instagram.com/iamcherya/" target="_blank">Instagram</a>
+        |
+        <a href="https://t.me/ifyoureadthistextits2late" target="_blank">Telegram</a>
+        |
+        <a href="https://www.linkedin.com/in/sergey-cherednichenko-b89b54173" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="card bg-green">
+      <h2>My hobbies</h2>
+
+      <ol class="list">
         <li>Traveling</li>
-        <li>Cycling</li>
-        <li>Football (YNWA)</li>
-        <li>Table Tennis</li>
-    </ol>
+        <li>Cycling&camping</li>
+        <li>Table tennis</li>
+        <li>Football</li>
+      </ol>
+    </div>
 
-    <h2>Work Experience</h2>
+    <div class="card bg-red">
+      <h2>Work Experience</h2>
 
-    <table>
-        <thead>
-            <tr>
-                <th>company name</th>
-                <th>position</th>
-                <th>period</th>
-            </tr>
-        </thead>
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead> -->
         <tbody>
-            <tr>
-                <td>Beetroot</td>
-                <td>Data Analyst</td>
-                <td>may 2020-january 2021</td>
-            </tr>
-            <tr>
-                <td>Fozzy Group</td>
-                <td>Data Engineer</td>
-                <td>january 2021-march 2022</td>
-            </tr>
+          <tr>
+            <td>Beetroot</td>
+            <td>Data Analyst</td>
+            <td>may 2020-january 2021</td>
+          </tr>
+          <tr>
+            <td>SupportYourApp</td>
+            <td>Data Engineer</td>
+            <td>january 2021-april 2021</td>
+          </tr>
+          <tr>
+            <td>Fozzy Group</td>
+            <td>Data Engineer</td>
+            <td>april 2021-march 2022</td>
+          </tr>
+          <tr>
+         
+          </tr>
         </tbody>
-    </table>
+      </table>
+    </div>
 
-    <h2>contact me</h2>
+    <div class="card bg-yellow">
+      <!-- <h2>My Channek</h2> -->
 
-    <form action="/">
-        <div>
-            <label for="text">Your name</label>
-            <input type="text" id="text" placeholder="enter name">
-            
-        </div>
+      <ul class="link-list">
+          <li>
+              <a href="https://t.me/cheryasound">My musical Telegram channel</a>
+          </li>
+      </ul>
+    </div>
+
     
-        <div>
-    
-            <label for="email">Your email</label>
-            <input type="text" id="email" placeholder="enter email">
-            
-    
+
+    <form action="/" class="form">
+      <h2>Contact Me</h2>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="name">Your name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
         </div>
 
-        <div>
-            <label for="message">Your message</label>
-            <br>
-            <textarea id="message" cols="25" rows="5" placeholder="enter message..."></textarea>
+        <div class="form-group">
+          <label for="email">Your email:</label>
+          <input type="email" id="email" placeholder="Enter your email">
         </div>
+      </div>
 
-        <input type="submit" value="send">
-</form>
+      <div class="form-group">
+        <label for="message">Your message:</label>
+        <textarea id="message" cols="20" rows="5" placeholder="Enter your message..."></textarea>
+      </div>
 
-<br>
-<br>
-<br>
+      <input class="btn" type="submit" value="Send!">
+    </form>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
 </body>
 </html>
